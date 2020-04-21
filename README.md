@@ -15,9 +15,9 @@ In the end it returns a CSV file so constructed (redshift, as in column 1, is di
 
 Galaxy ID | Ratio value 1 | Ratio value 2 | ... | Ratio value J
 ------------ | ------------- | ------------- | ------------- | -------------
-ID 1 | redshift 1 | record ID 1 ratio 1 | record ID 1 ratio 2 | ... | record ID 1 ratio J
-ID 2 | redshift 2 | record ID 2 ratio 1 | record ID 2 ratio 2 | ... | record ID 2 ratio J
-... | ... | ... | ... | ... | ... | ... | ... | ...
-ID N | redshift N | record ID N ratio 1 | record ID N ratio 2 | ... | record ID N ratio J
+ID 1 | record ID 1 ratio 1 | record ID 1 ratio 2 | ... | record ID 1 ratio J
+ID 2 | record ID 2 ratio 1 | record ID 2 ratio 2 | ... | record ID 2 ratio J
+... | ... | ... | ... | ...
+ID N | record ID N ratio 1 | record ID N ratio 2 | ... | record ID N ratio J
 
 CSV file has comma as delimiter and "" as text highlighters.
